@@ -11,7 +11,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{{asset('admin')}}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="{{asset('admin')}}/dist/img/saya.jpeg" class="img-fluid rounded-circle" style="width: 30px;height: 30px; object-fit: cover" alt="User Image">
         </div>
         <div class="info">
           <a href="/dashboard" class="d-block">Zahir Abdul Rasyid</a>
@@ -40,7 +40,7 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <i class="right fas fa-angle-left"></i>
+                {{-- <i class="right fas fa-angle-left"></i> --}}
               </p>
             </a>
           </li>
